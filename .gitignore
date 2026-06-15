@@ -1,0 +1,74 @@
+# Simulation Output Files
+*.vvp
+*.vcd
+*.wdb
+*.ghw
+*.fst
+*.vg
+
+# Compilation Artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+
+# ModelSim/QuestaSim Files
+work/
+*.vsim
+*.wlf
+*.transcript
+*.ini
+_info
+_lib.qdb
+_lib1.qdb
+_lib1.qlf
+_vmake
+.modelsim_init
+
+# Vivado/ISE Files
+*.ngc
+*.ngd
+*.ncd
+*.pcf
+*.bit
+*.log
+*.jou
+*.runs/
+*.ip_user_files/
+*.gen/
+*.cache/
+.Xil/
+
+# Quartus Files
+db/
+incremental_db/
+*.qsf
+*.qpf
+*.rpt
+*.summary
+
+# General IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Documentation build
+docs/_build/
+site/
+
+# Backup files
+*.bak
+*.backup
